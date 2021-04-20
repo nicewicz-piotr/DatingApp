@@ -80,7 +80,7 @@ namespace API.Controllers
 
             var photo = new Photo
             {
-                Url = result.Url.AbsoluteUri,
+                Url = result.SecureUrl.AbsoluteUri,
                 PublicId = result.PublicId
             };
 
